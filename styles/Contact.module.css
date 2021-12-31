@@ -1,0 +1,110 @@
+.backRight {
+  background: white;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.backLeft {
+  background-color: #222222;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+}
+.padding {
+  padding: 2% 10%;
+}
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  height: auto;
+  padding: 2% 5%;
+}
+
+.backLeft h1 {
+  margin-top: 47%;
+  margin-bottom: 2%;
+}
+
+.backLeft p,
+.backLeft h1 {
+  color: white;
+}
+
+.backLeft h1 {
+  font-size: 5em;
+  font-weight: bold;
+  word-spacing: -10px;
+}
+
+.backLeft p {
+  font-size: 25px;
+}
+
+.backRight h2 {
+  margin-top: 37%;
+  margin-bottom: 3%;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+#left,
+#right {
+  width: 43%;
+  padding: 2%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  background: #f5f5f5;
+  border: none;
+}
+
+#right {
+  margin-right: 0;
+}
+
+#message {
+  width: 98%;
+  padding-bottom: 10%;
+  padding-left: 2%;
+  padding-top: 2%;
+  resize: none;
+  background: #f5f5f5;
+  border: none;
+}
+
+@media screen and (max-width: 887px) {
+  .backLeft {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10%;
+    justify-content: center;
+  }
+
+  .backLeft h1 {
+    margin-top: 75px;
+    font-size: 3em;
+  }
+
+  .backLeft p {
+    font-size: 1.25em;
+  }
+
+  .backRight {
+    height: 600px;
+    width: 100%;
+    margin-top: 500px;
+  }
+
+  #left,
+  #right {
+    width: 100%;
+  }
+
+  .backRight h2 {
+    margin-top: 0;
+  }
+}
